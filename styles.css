@@ -1,0 +1,112 @@
+/* Nintendo Switch Analysis Styles */
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #333;
+}
+
+.article-header {
+  margin-bottom: 30px;
+}
+
+.article-date {
+  color: #777;
+  margin-bottom: 5px;
+  font-style: italic;
+}
+
+.article-authors {
+  font-weight: 500;
+  margin-top: 0;
+}
+
+h1, h2 {
+  color: #E60012; /* Nintendo red */
+  margin-top: 1.5em;
+}
+
+h1 {
+  font-size: 2.2em;
+  border-bottom: 2px solid #E60012;
+  padding-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.7em;
+}
+
+strong {
+  color: #E60012;
+  font-weight: 600;
+}
+
+ul, ol {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+.introduction {
+  font-size: 1.1em;
+  margin-bottom: 30px;
+  border-left: 3px solid #E60012;
+  padding-left: 15px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 30px auto;
+  border-radius: 5px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.image-caption {
+  text-align: center;
+  font-style: italic;
+  color: #777;
+  margin-top: -20px;
+  margin-bottom: 30px;
+}
+
+blockquote {
+  background-color: #f9f9f9;
+  border-left: 4px solid #E60012;
+  padding: 15px;
+  margin: 20px 0;
+  font-style: italic;
+}
+
+footer {
+  margin-top: 50px;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+  font-size: 0.9em;
+  color: #777;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+  
+  h1 {
+    font-size: 1.8em;
+  }
+  
+  h2 {
+    font-size: 1.4em;
+  }
+}
