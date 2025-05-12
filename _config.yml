@@ -1,3 +1,6 @@
 title: BADM 590 Group 7 Final Blog
 author: Lechen Gong, Celeste Huang, Jinlin Wang
 theme: minima
+include:
+  - "_images"
+  
